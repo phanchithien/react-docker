@@ -12,7 +12,7 @@ jobs:
     environment:
       DOCKER_IMAGE: phanchithien456/react-docker
       DOCKER_TAG: latest
-      DOCKER_IP: 157.230.33.57
+      DOCKER_IP: "157.230.33.57"
     executor: docker/docker
     steps:
       - setup_remote_docker
